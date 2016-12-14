@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include webover *.css
+recursive-include webover *.csv
+recursive-include webover *.html
+recursive-include webover *.ico
+recursive-include webover *.js
+recursive-include webover *.json
+recursive-include webover *.md
+recursive-include webover *.png
+recursive-include webover *.py
+recursive-include webover *.svg
+recursive-include webover *.txt
+recursive-exclude webover *.pyc
